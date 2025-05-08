@@ -28,12 +28,6 @@ end
 
 weight = [3 2 1];
 
-%table = [20 4 5
-%        11 6 12
-%        3 20 20
-%        10 15 17];
-
-
 % number of students
 students_number = size(table,1);
 
