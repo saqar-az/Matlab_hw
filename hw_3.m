@@ -37,8 +37,7 @@ v2 = v( 1:2:3 ,2:2:4);
 u = rand(2,4)*35+10;
 uu = u( : ,[1:2, 4:end]);
 
-% 9 :  f= (size of matrix k)*k , k= a random 4*2 matrix within [-6,6]. 
-% size = max(row,column).
+% 9 :  f= (size of matrix k)*k , k= a random 4*2 matrix within [-6,6].  size = max(row,column).
 k = rand(4,2)*12-6;
 size_k = size(k);
 kk = size_k(1)*k;
